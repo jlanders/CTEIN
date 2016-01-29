@@ -7,7 +7,11 @@
 //
 
 import UIKit
-class ViewController: UIViewController {
+class firstViewController: UIViewController {
+    
+
+    
+    @IBOutlet weak var btnNavSettings: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
