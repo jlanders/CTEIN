@@ -12,6 +12,14 @@
 		1A464B1F1C5B0A2D00FF9F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A464B1D1C5B0A2D00FF9F7E /* Main.storyboard */; };
 		1A464B211C5B0A2D00FF9F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A464B201C5B0A2D00FF9F7E /* Assets.xcassets */; };
 		1A464B241C5B0A2D00FF9F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A464B221C5B0A2D00FF9F7E /* LaunchScreen.storyboard */; };
+		1A5E78541C5BAC0D00270DD4 /* Barcode Scanner-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E78531C5BAC0D00270DD4 /* Barcode Scanner-25.png */; };
+		1A5E78561C5BAC1900270DD4 /* Print-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E78551C5BAC1900270DD4 /* Print-25.png */; };
+		1A5E78581C5BACEF00270DD4 /* Settings-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E78571C5BACEF00270DD4 /* Settings-25.png */; };
+		1A5E785C1C5BB04F00270DD4 /* Plus-25-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E785B1C5BB04F00270DD4 /* Plus-25-2.png */; };
+		1A5E785E1C5BB0E200270DD4 /* BarcodeSmall-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E785D1C5BB0E200270DD4 /* BarcodeSmall-25.png */; };
+		1A5E78601C5BB1AF00270DD4 /* Barcode-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E785F1C5BB1AF00270DD4 /* Barcode-35.png */; };
+		1A5E78621C5BB1F200270DD4 /* Plus-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E78611C5BB1F200270DD4 /* Plus-35.png */; };
+		1A5E78A01C5BB54700270DD4 /* Checkmark-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E789F1C5BB54700270DD4 /* Checkmark-25.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		1A464B201C5B0A2D00FF9F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A464B231C5B0A2D00FF9F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A464B251C5B0A2D00FF9F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5E78531C5BAC0D00270DD4 /* Barcode Scanner-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Barcode Scanner-25.png"; sourceTree = "<group>"; };
+		1A5E78551C5BAC1900270DD4 /* Print-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Print-25.png"; sourceTree = "<group>"; };
+		1A5E78571C5BACEF00270DD4 /* Settings-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-25.png"; sourceTree = "<group>"; };
+		1A5E785B1C5BB04F00270DD4 /* Plus-25-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-25-2.png"; sourceTree = "<group>"; };
+		1A5E785D1C5BB0E200270DD4 /* BarcodeSmall-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BarcodeSmall-25.png"; sourceTree = "<group>"; };
+		1A5E785F1C5BB1AF00270DD4 /* Barcode-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Barcode-35.png"; sourceTree = "<group>"; };
+		1A5E78611C5BB1F200270DD4 /* Plus-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-35.png"; sourceTree = "<group>"; };
+		1A5E789F1C5BB54700270DD4 /* Checkmark-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark-25.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,14 @@
 				1A464B1B1C5B0A2D00FF9F7E /* ViewController.swift */,
 				1A464B1D1C5B0A2D00FF9F7E /* Main.storyboard */,
 				1A464B201C5B0A2D00FF9F7E /* Assets.xcassets */,
+				1A5E78531C5BAC0D00270DD4 /* Barcode Scanner-25.png */,
+				1A5E789F1C5BB54700270DD4 /* Checkmark-25.png */,
+				1A5E785D1C5BB0E200270DD4 /* BarcodeSmall-25.png */,
+				1A5E785F1C5BB1AF00270DD4 /* Barcode-35.png */,
+				1A5E78611C5BB1F200270DD4 /* Plus-35.png */,
+				1A5E785B1C5BB04F00270DD4 /* Plus-25-2.png */,
+				1A5E78571C5BACEF00270DD4 /* Settings-25.png */,
+				1A5E78551C5BAC1900270DD4 /* Print-25.png */,
 				1A464B221C5B0A2D00FF9F7E /* LaunchScreen.storyboard */,
 				1A464B251C5B0A2D00FF9F7E /* Info.plist */,
 			);
@@ -123,9 +147,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5E78A01C5BB54700270DD4 /* Checkmark-25.png in Resources */,
 				1A464B241C5B0A2D00FF9F7E /* LaunchScreen.storyboard in Resources */,
+				1A5E78581C5BACEF00270DD4 /* Settings-25.png in Resources */,
+				1A5E78541C5BAC0D00270DD4 /* Barcode Scanner-25.png in Resources */,
+				1A5E78621C5BB1F200270DD4 /* Plus-35.png in Resources */,
+				1A5E785E1C5BB0E200270DD4 /* BarcodeSmall-25.png in Resources */,
+				1A5E78601C5BB1AF00270DD4 /* Barcode-35.png in Resources */,
 				1A464B211C5B0A2D00FF9F7E /* Assets.xcassets in Resources */,
+				1A5E78561C5BAC1900270DD4 /* Print-25.png in Resources */,
 				1A464B1F1C5B0A2D00FF9F7E /* Main.storyboard in Resources */,
+				1A5E785C1C5BB04F00270DD4 /* Plus-25-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +319,7 @@
 				1A464B2A1C5B0A2D00FF9F7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
