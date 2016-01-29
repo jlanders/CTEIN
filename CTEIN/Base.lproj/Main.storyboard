@@ -22,7 +22,11 @@
                                 <items>
                                     <navigationItem title="Title" id="Unz-aj-kGD">
                                         <barButtonItem key="leftBarButtonItem" systemItem="search" id="tgc-hN-edD"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="3ak-V5-sTd"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Barcode" id="3ak-V5-sTd">
+                                            <connections>
+                                                <action selector="btnBarCode:" destination="BYZ-38-t0r" id="86E-sE-2UA"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
