@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A42A39A1C5FC6BD004B9C7B /* discoveredBarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42A3991C5FC6BD004B9C7B /* discoveredBarCodeView.swift */; };
+		1A42A39C1C5FD9D0004B9C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42A39B1C5FD9D0004B9C7B /* AVFoundation.framework */; };
+		1A42A3A61C600650004B9C7B /* RSBarcodes.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42A3A21C6004C5004B9C7B /* RSBarcodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A42A3A81C600780004B9C7B /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42A3A71C600780004B9C7B /* ScanViewController.swift */; };
+		1A42A3AA1C602085004B9C7B /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42A3A91C602085004B9C7B /* RSCodeReaderViewController.swift */; };
+		1A42A3B01C60213A004B9C7B /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42A3AB1C60213A004B9C7B /* RSCodeLayer.swift */; };
+		1A42A3B11C60213A004B9C7B /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42A3AC1C60213A004B9C7B /* RSCornersLayer.swift */; };
+		1A42A3B21C60213A004B9C7B /* RSFocusMarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42A3AD1C60213A004B9C7B /* RSFocusMarkLayer.swift */; };
+		1A42A3B31C60213A004B9C7B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42A3AE1C60213A004B9C7B /* StringExtension.swift */; };
+		1A42A3B41C60213A004B9C7B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42A3AF1C60213A004B9C7B /* UIColorExtension.swift */; };
 		1A464B1A1C5B0A2D00FF9F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A464B191C5B0A2D00FF9F7E /* AppDelegate.swift */; };
 		1A464B1C1C5B0A2D00FF9F7E /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A464B1B1C5B0A2D00FF9F7E /* firstViewController.swift */; };
 		1A464B1F1C5B0A2D00FF9F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A464B1D1C5B0A2D00FF9F7E /* Main.storyboard */; };
@@ -23,11 +33,52 @@
 		1A5E78A21C5BC84100270DD4 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E78A11C5BC84100270DD4 /* searchViewController.swift */; };
 		1ADD26CC1C5BEB24009F3E77 /* dataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD26CB1C5BEB24009F3E77 /* dataViewController.swift */; };
 		1ADD26CE1C5BFEEB009F3E77 /* plus_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD26CD1C5BFEEB009F3E77 /* plus_31.png */; };
-		1ADD26D01C5C219E009F3E77 /* scanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD26CF1C5C219E009F3E77 /* scanViewController.swift */; };
+		1ADD26D01C5C219E009F3E77 /* OldscanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD26CF1C5C219E009F3E77 /* OldscanViewController.swift */; };
 		1ADD26D21C5C233E009F3E77 /* Home-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD26D11C5C233E009F3E77 /* Home-25.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1A42A3A11C6004C5004B9C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A42A39D1C6004BC004B9C7B /* RSBarcodes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D08336371A202E81004EE128;
+			remoteInfo = RSBarcodes;
+		};
+		1A42A3A31C600618004B9C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A42A39D1C6004BC004B9C7B /* RSBarcodes.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D08336361A202E81004EE128;
+			remoteInfo = RSBarcodes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A42A3A51C600629004B9C7B /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1A42A3A61C600650004B9C7B /* RSBarcodes.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A42A3991C5FC6BD004B9C7B /* discoveredBarCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = discoveredBarCodeView.swift; sourceTree = "<group>"; };
+		1A42A39B1C5FD9D0004B9C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1A42A39D1C6004BC004B9C7B /* RSBarcodes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RSBarcodes.xcodeproj; sourceTree = "<group>"; };
+		1A42A3A71C600780004B9C7B /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		1A42A3A91C602085004B9C7B /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeReaderViewController.swift; path = ../Source/RSCodeReaderViewController.swift; sourceTree = "<group>"; };
+		1A42A3AB1C60213A004B9C7B /* RSCodeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeLayer.swift; path = ../Source/RSCodeLayer.swift; sourceTree = "<group>"; };
+		1A42A3AC1C60213A004B9C7B /* RSCornersLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCornersLayer.swift; path = ../Source/RSCornersLayer.swift; sourceTree = "<group>"; };
+		1A42A3AD1C60213A004B9C7B /* RSFocusMarkLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSFocusMarkLayer.swift; path = ../Source/RSFocusMarkLayer.swift; sourceTree = "<group>"; };
+		1A42A3AE1C60213A004B9C7B /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ../Source/StringExtension.swift; sourceTree = "<group>"; };
+		1A42A3AF1C60213A004B9C7B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ../Source/UIColorExtension.swift; sourceTree = "<group>"; };
 		1A464B161C5B0A2D00FF9F7E /* CTEIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTEIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A464B191C5B0A2D00FF9F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A464B1B1C5B0A2D00FF9F7E /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +97,7 @@
 		1A5E78A11C5BC84100270DD4 /* searchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		1ADD26CB1C5BEB24009F3E77 /* dataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataViewController.swift; sourceTree = "<group>"; };
 		1ADD26CD1C5BFEEB009F3E77 /* plus_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_31.png; sourceTree = "<group>"; };
-		1ADD26CF1C5C219E009F3E77 /* scanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scanViewController.swift; sourceTree = "<group>"; };
+		1ADD26CF1C5C219E009F3E77 /* OldscanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldscanViewController.swift; sourceTree = "<group>"; };
 		1ADD26D11C5C233E009F3E77 /* Home-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-25.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,17 +106,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A42A39C1C5FD9D0004B9C7B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A42A39E1C6004BC004B9C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A42A3A21C6004C5004B9C7B /* RSBarcodes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1A464B0D1C5B0A2D00FF9F7E = {
 			isa = PBXGroup;
 			children = (
+				1A42A39B1C5FD9D0004B9C7B /* AVFoundation.framework */,
 				1A464B181C5B0A2D00FF9F7E /* CTEIN */,
 				1A464B171C5B0A2D00FF9F7E /* Products */,
+				1A42A39D1C6004BC004B9C7B /* RSBarcodes.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,9 +144,17 @@
 			children = (
 				1A464B191C5B0A2D00FF9F7E /* AppDelegate.swift */,
 				1A464B1B1C5B0A2D00FF9F7E /* firstViewController.swift */,
+				1A42A3991C5FC6BD004B9C7B /* discoveredBarCodeView.swift */,
 				1ADD26CB1C5BEB24009F3E77 /* dataViewController.swift */,
 				1A5E78A11C5BC84100270DD4 /* searchViewController.swift */,
-				1ADD26CF1C5C219E009F3E77 /* scanViewController.swift */,
+				1ADD26CF1C5C219E009F3E77 /* OldscanViewController.swift */,
+				1A42A3A91C602085004B9C7B /* RSCodeReaderViewController.swift */,
+				1A42A3AB1C60213A004B9C7B /* RSCodeLayer.swift */,
+				1A42A3AC1C60213A004B9C7B /* RSCornersLayer.swift */,
+				1A42A3AD1C60213A004B9C7B /* RSFocusMarkLayer.swift */,
+				1A42A3AE1C60213A004B9C7B /* StringExtension.swift */,
+				1A42A3AF1C60213A004B9C7B /* UIColorExtension.swift */,
+				1A42A3A71C600780004B9C7B /* ScanViewController.swift */,
 				1A464B1D1C5B0A2D00FF9F7E /* Main.storyboard */,
 				1A464B201C5B0A2D00FF9F7E /* Assets.xcassets */,
 				1A5E78531C5BAC0D00270DD4 /* Barcode Scanner-25.png */,
@@ -113,10 +183,12 @@
 				1A464B121C5B0A2D00FF9F7E /* Sources */,
 				1A464B131C5B0A2D00FF9F7E /* Frameworks */,
 				1A464B141C5B0A2D00FF9F7E /* Resources */,
+				1A42A3A51C600629004B9C7B /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1A42A3A41C600618004B9C7B /* PBXTargetDependency */,
 			);
 			name = CTEIN;
 			productName = CTEIN;
@@ -150,12 +222,28 @@
 			mainGroup = 1A464B0D1C5B0A2D00FF9F7E;
 			productRefGroup = 1A464B171C5B0A2D00FF9F7E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1A42A39E1C6004BC004B9C7B /* Products */;
+					ProjectRef = 1A42A39D1C6004BC004B9C7B /* RSBarcodes.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1A464B151C5B0A2D00FF9F7E /* CTEIN */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1A42A3A21C6004C5004B9C7B /* RSBarcodes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RSBarcodes.framework;
+			remoteRef = 1A42A3A11C6004C5004B9C7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1A464B141C5B0A2D00FF9F7E /* Resources */ = {
@@ -185,8 +273,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADD26D01C5C219E009F3E77 /* scanViewController.swift in Sources */,
+				1ADD26D01C5C219E009F3E77 /* OldscanViewController.swift in Sources */,
+				1A42A3B21C60213A004B9C7B /* RSFocusMarkLayer.swift in Sources */,
+				1A42A3B11C60213A004B9C7B /* RSCornersLayer.swift in Sources */,
+				1A42A3A81C600780004B9C7B /* ScanViewController.swift in Sources */,
+				1A42A3AA1C602085004B9C7B /* RSCodeReaderViewController.swift in Sources */,
+				1A42A3B01C60213A004B9C7B /* RSCodeLayer.swift in Sources */,
+				1A42A3B41C60213A004B9C7B /* UIColorExtension.swift in Sources */,
+				1A42A39A1C5FC6BD004B9C7B /* discoveredBarCodeView.swift in Sources */,
 				1ADD26CC1C5BEB24009F3E77 /* dataViewController.swift in Sources */,
+				1A42A3B31C60213A004B9C7B /* StringExtension.swift in Sources */,
 				1A464B1C1C5B0A2D00FF9F7E /* firstViewController.swift in Sources */,
 				1A464B1A1C5B0A2D00FF9F7E /* AppDelegate.swift in Sources */,
 				1A5E78A21C5BC84100270DD4 /* searchViewController.swift in Sources */,
@@ -194,6 +290,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A42A3A41C600618004B9C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSBarcodes;
+			targetProxy = 1A42A3A31C600618004B9C7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1A464B1D1C5B0A2D00FF9F7E /* Main.storyboard */ = {
@@ -303,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CTEIN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webwraith.CTEIN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CTEIN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webwraith.CTEIN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
